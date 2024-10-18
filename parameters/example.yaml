@@ -1,0 +1,9 @@
+# Database credentials
+database.url: jdbc:sqlserver://localhost:1441;databaseName=example_database
+database.username: exampleusername
+database.password: examplepassword
+
+app.message: Tosi tärkeä viesti.
+
+# NEVER TURN ON!
+businesslogic.breakeverything: 1

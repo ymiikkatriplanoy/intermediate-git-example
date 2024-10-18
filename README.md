@@ -1,0 +1,3 @@
+# Intermediate Git presentation example
+
+
