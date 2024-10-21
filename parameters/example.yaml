@@ -1,9 +1,15 @@
+testing.stuff:
+  - a
+  - b
+  - c
+  - d
+
 # Database credentials
 database.url: jdbc:sqlserver://localhost:1441;databaseName=example_database
 database.username: exampleusername
-database.password: examplepassword
+database.password: changedpassword
 
-app.message: Tosi tärkeä viesti.
+app.message: Tosi tärkeä viesti.d
 
 # NEVER TURN ON!
-businesslogic.breakeverything: 1
+businesslogic.breakeverything: 0
