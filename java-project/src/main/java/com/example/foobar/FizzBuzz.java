@@ -4,9 +4,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class FizzBuzz {
-  private final int count = 100;
+  private final int count;
 
-  public FizzBuzz() {}
+  public FizzBuzz(int count) {
+    this.count = count;
+  }
+
+  public int getCount() {
+    return count;
+  }
 
   public Map<Integer, String> computeFizzBuzz() {
     var results = new HashMap<Integer, String>();
